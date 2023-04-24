@@ -3,6 +3,7 @@ const navConf = require('./config/navConf')
 const sidebarConf = require('./config/sidebarConf')
 
 module.exports = {
+  "base": "/vuepress-blog/",
   "title": "Jade's bolg",
   "description": "a blog website base on vuepress framework",
   // "dest": "dist",
