@@ -4,8 +4,8 @@ const sidebarConf = require('./config/sidebarConf')
 
 module.exports = {
   "base": "/vuepress-blog/",
-  "title": "Jade's bolg",
-  "description": "a blog website base on vuepress framework",
+  "title": "Jade",
+  "description": "A blog&docs website base on vuepress framework",
   // "dest": "dist",
   "head": headConf,
   "theme": "reco",
@@ -25,6 +25,11 @@ module.exports = {
         "text": "标签"
       }
     },
+    // "keyPage": {
+    //   "keys": ['56521b4d2824c0cb09bb240f8461acad'],
+    //   "color": "#42b983",
+    //   "lineColor": "#42b983"
+    // },
     // "friendLink": [
     //   {
     //     "title": "午后南杂",

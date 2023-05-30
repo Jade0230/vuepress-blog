@@ -1,8 +1,5 @@
 module.exports = {
   "/docs/JS_Advanced/": [
-    "",
-    "theme",
-    "plugin",
-    "api"
+    "this的四个绑定规则"
   ]
 }

@@ -12,6 +12,6 @@ tagline: null
 #   borderRadius: '1rem',
 # }
 bgImageStyle: {
-  height: 0
+  height: 500px
 }
 ---
