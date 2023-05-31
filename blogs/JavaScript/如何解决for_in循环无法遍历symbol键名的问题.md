@@ -1,8 +1,9 @@
 ---
-title: 如何解决for in循环无法遍历symbol key的问题
+title: 如何解决for_in循环无法遍历symbol键名的问题
 date: 2020-4-2
 tags:
  - ES6
+ - JavaScript
 categories:
  - JavaScript
 ---

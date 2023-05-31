@@ -1,7 +1,7 @@
 {
   "name": "Jade's_bolg",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "author": "Jade",
   "scripts": {
     "dev": "vuepress dev . --temp .temp --no-cache",
     "build": "vuepress build .",

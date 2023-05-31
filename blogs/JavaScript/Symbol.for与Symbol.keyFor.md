@@ -1,8 +1,9 @@
 ---
-title: Symbol.for()与Symbol.keyFor()
+title: Symbol.for与Symbol.keyFor
 date: 2020-4-2
 tags:
  - ES6
+ - JavaScript
 categories:
  - JavaScript
 ---
@@ -32,10 +33,10 @@ JavaScript 维护了一个全局的 `Symbol` 注册表，通过向注册表中�
 
 
 ```js
-cosnt sf1 = Symbol.for("foo") // 创建一个 symbol 并放入 symbol 注册表中，键为 "foo"
-cosnt sf2 = Symbol.for("foo") // 从 symbol 注册表中读取键为"foo"的 symbol，而不是重新创建一个新的 symbol
-cosnt s1 = Symbol('bar')
-cosnt s2 = Symbol('bar')
+const sf1 = Symbol.for("foo") // 创建一个 symbol 并放入 symbol 注册表中，键为 "foo"
+const sf2 = Symbol.for("foo") // 从 symbol 注册表中读取键为"foo"的 symbol，而不是重新创建一个新的 symbol
+const s1 = Symbol('bar')
+const s2 = Symbol('bar')
 
 sf1 === sf2 // true，证明了上面说的
 s1 === s2 // false，Symbol() 函数每次都会返回新的一个 symbol

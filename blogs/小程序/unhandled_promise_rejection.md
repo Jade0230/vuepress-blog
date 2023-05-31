@@ -9,7 +9,7 @@ categories:
 
 
 
-# 问题
+## 问题
 
 运行小程序时，发现报错
 
@@ -25,13 +25,13 @@ Unhandled promise rejection(env: Windows,mp,1.06.2206020; lib: 2.26.2)
 
 
 
-# 原因
+## 原因
 
 基础库版本过高
 
 
 
-# 解决方案
+## 解决方案
 
 选择版本较低的
 
