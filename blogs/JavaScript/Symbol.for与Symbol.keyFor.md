@@ -1,6 +1,6 @@
 ---
 title: Symbol.for与Symbol.keyFor
-date: 2020-4-2
+date: 2020-04-02
 tags:
  - ES6
  - JavaScript
